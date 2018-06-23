@@ -1,0 +1,27 @@
+#pageHeader {
+    background-color: #7B7D4E;
+}
+
+#navbar {
+    background-color: #432E2D;
+    padding-bottom: 8px
+}
+
+#headerHeader {
+    text-align: center;
+    padding-top: 12px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.display-3 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.nav-item.active {
+    font-weight: 400;
+}
