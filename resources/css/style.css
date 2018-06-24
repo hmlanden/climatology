@@ -25,3 +25,9 @@
 .nav-item.active {
     font-weight: 400;
 }
+
+#teamPic {
+    float: right;
+    max-height: 175px;
+    max-width: 175px;
+}
