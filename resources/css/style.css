@@ -1,44 +1,101 @@
+html {
+    font-size: 62.5%;
+}
+
+/* template from W3 schools
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .navbar {
+        font-size: 1.5rem;
+    }
+    #headerHeader {
+        font-size: 4.8rem;
+    }
+    .display-1 {
+        font-size: 9rem;
+    }
+    .display-2 {
+        font-size: 7.8rem;
+    }
+    .display-3 {
+        font-size: 5rem;
+    }
+    h5 {
+        font-size: 2.4rem;
+    }
+    h6,
+    #cardHeader,
+    .btn btn-info {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
+
 #pageHeader {
     background-color: #7B7D4E;
 }
 
-#navbar {
+.navbar {
     background-color: #432E2D;
-    padding-bottom: 8px
+    padding-bottom: 8px;
+    font-family: "Futura", Trebuchet MS, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+}
+
+.nav-item.active {
+    font-weight: 400;
 }
 
 #headerHeader {
     text-align: center;
     padding-top: 12px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 60px;
+    font-family: "Courier New", Courier, monospace;
     font-style: normal;
     font-variant: normal;
 }
 
 .display-1 {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-style: normal;
-    font-variant: normal;
-}
-
-.display-2 {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-style: normal;
     font-variant: normal;
     font-size-adjust: auto;
+    vertical-align: middle;
+}
+
+.display-2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size-adjust: auto;
+    padding-top: 5px;
 }
 
 .display-3 {
-    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-family: "Futura", Trebuchet MS, Arial, sans-serif;
     font-style: normal;
     font-variant: normal;
-    font-size: 50px;
     text-align: center;
-}
-
-.nav-item.active {
-    font-weight: 400;
 }
 
 #teamPic {
@@ -62,32 +119,4 @@
 
 #headerImage {
     width: auto;
-}
-
-.card-img-top {
-    padding-top: 5px;
-    max-height: 150px;
-    width: auto;
-}
-
-html {
-    font-size: 1.2vw;
-}
-
-@include media-breakpoint-up(sm) {
-    html {
-        font-size: 1.6vw;
-    }
-}
-
-@include media-breakpoint-up(md) {
-    html {
-        font-size: 1.6vw;
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    html {
-        font-size: 1.8vw;
-    }
 }
