@@ -104,4 +104,4 @@ venv.bak/
 .mypy_cache/
 
 # ignore original data files
-data/pollution_us_2000_2016.csv
+pollution_original.csv
