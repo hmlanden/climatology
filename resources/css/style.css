@@ -1,0 +1,136 @@
+html {
+    font-size: 62.5%;
+}
+
+/* template from W3 schools
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .navbar {
+        font-size: 1.5rem;
+    }
+    #headerHeader {
+        font-size: 4.8rem;
+    }
+    .display-1 {
+        font-size: 9rem;
+    }
+    .display-2 {
+        font-size: 7.8rem;
+    }
+    .display-3 {
+        font-size: 5rem;
+    }
+    h5 {
+        font-size: 2.3rem;
+    }
+    h6,
+    #cardHeader {
+        font-size: 1.6rem;
+    }
+    p,
+    .p,
+    #button {
+        font-size: 1.5rem;
+    }
+    footer {
+        font-size: 1.2rem;
+    }
+}
+
+#pageHeader {
+    background-color: #7B7D4E;
+}
+
+.navbar {
+    background-color: #432E2D;
+    padding-bottom: 8px;
+    font-family: "Futura", Trebuchet MS, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.nav-item.active {
+    font-weight: 400;
+    text-decoration: overline underline solid;
+
+}
+
+#headerHeader {
+    text-align: center;
+    padding-top: 12px;
+    font-family: "Courier New", Courier, monospace;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.display-1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size-adjust: auto;
+    vertical-align: middle;
+}
+
+.display-2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size-adjust: auto;
+    padding-top: 5px;
+}
+
+.display-3 {
+    font-family: "Futura", Trebuchet MS, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+}
+
+#teamPic {
+    float: right;
+    max-height: 175px;
+    width: auto;
+    resize: both;
+}
+
+.mr-3 {
+    max-width: 250px;
+    height: auto;
+}
+
+#fancycol {
+    border-style: solid;
+    border-width: 5px;
+    margin: 20px;
+
+}
+
+#headerImage {
+    width: auto;
+}
+
+#techPic {
+    height: 150px;
+    width: auto;
+}
+
+h6 {
+    font-weight: bold;
+}

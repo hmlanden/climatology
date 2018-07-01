@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Global Climate History</title>
 
     <!-- Import Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -27,11 +27,11 @@
             <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="history.html">Global Climate History</a>
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="history.html">Global Climate History <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="future.html">Possible Futures</a>
@@ -55,13 +55,36 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4">
-                <h1 class="display-1">Climate Change is Real...ly Complex</h1>
-            </div>
-            <div class="col-8" style="padding-left: 0px; padding-right: 0px">
-                <img src="resources/images/index/iceberg.jpg" class="img-fluid" id="headerImage">
-                <br>
-                <footer class="blockquote-footer">Photo Credit: jocrebbin, <cite title="Source Title">Getty Images</cite></footer>
+            <div class="col">
+                <h2 class="display-2">Global Climate History</h2>
+                <div class='tableauPlaceholder' id='viz1530242207264' style='position: relative'>
+                    <noscript>
+                    <a href='#'>
+                    <img alt='Years V. Sea Level ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ye&#47;YearsvSeaLevel&#47;YearsV_SeaLevel&#47;1_rss.png' style='border: none' />
+                    </a>
+                    </noscript>
+                    <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='path' value='views&#47;YearsvSeaLevel&#47;YearsV_SeaLevel?:embed=y&amp;:display_count=y' /> 
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ye&#47;YearsvSeaLevel&#47;YearsV_SeaLevel&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    </object>
+                </div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1530242207264');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+
+                </script>
             </div>
         </div>
     </div>
