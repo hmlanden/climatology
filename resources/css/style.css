@@ -52,6 +52,9 @@ html {
     footer {
         font-size: 1.2rem;
     }
+    .navbar-brand {
+        font-size: 1.7rem;
+    }
 }
 
 #pageHeader {
@@ -64,12 +67,12 @@ html {
     font-family: "Futura", Trebuchet MS, Arial, sans-serif;
     font-style: normal;
     font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0.5px;
 }
 
 .nav-item.active {
-    font-weight: 400;
     text-decoration: overline underline solid;
-
 }
 
 #headerHeader {
@@ -129,6 +132,8 @@ html {
 #techPic {
     height: 150px;
     width: auto;
+    max-width: 150px;
+    padding: 5px;
 }
 
 h6 {
