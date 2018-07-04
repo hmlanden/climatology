@@ -42,17 +42,20 @@ html {
     }
     h6,
     #cardHeader {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     p,
     .p,
-    #button {
-        font-size: 1.5rem;
+    #button,
+    ol,
+    td {
+        font-size: 1.6rem;
     }
-    footer {
-        font-size: 1.2rem;
+    .blockquote-footer {
+        font-size: 1.3rem;
     }
-    .navbar-brand {
+    .navbar-brand,
+    th {
         font-size: 1.7rem;
     }
 }

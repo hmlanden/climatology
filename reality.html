@@ -60,16 +60,92 @@
         <div class="row">
             <div class="col">
                 <h2 class="display-2">Current Climate Realities</h2>
-                <div id="asthmaPlot"></div>
-                <div id="myDiv"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3 class="display-3" style='text-align: left'>Air Quality & Pollution</h3>
+
+                <h4 class="display-4">Understanding the EPA AQI Scale</h4>
+                <p>EPA calculates the AQI for five major air pollutants regulated by the Clean Air Act:</p>
+                <ol>
+                    <li>ground-level ozone</li>
+                    <li>particle pollution (also known as particulate matter)</li>
+                    <li>carbon monoxide</li>
+                    <li>sulfur dioxide</li>
+                    <li>nitrogen dioxide</li>
+                </ol>
+                <p>For each of these pollutants, EPA has established national air quality standards to protect public health.</p>
+                <p>The AQI is divied into six categories:</p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">AQI</th>
+                            <th scope="col">Numerical Value</th>
+                            <th scope="col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background-color: #6FA754">
+                            <td>Good</td>
+                            <td>0-50</td>
+                            <td>Air quality is considered satisfactory, and air pollution poses little or no risk.</td>
+
+                        </tr>
+                        <tr style="background-color: #78CBCF">
+                            <td>Moderate</td>
+                            <td>51-100</td>
+                            <td>Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.</td>
+
+                        </tr>
+                        <tr style="background-color: #DF9D4F">
+                            <td>Unhealthy for Sensitive Groups</td>
+                            <td>101-150</td>
+                            <td>Members of sensitive groups may experience health effects. The general public is not likely to be affected.</td>
+                        </tr>
+                        <tr style="background-color: #D40040">
+                            <td>Unhealthy</td>
+                            <td>151-200</td>
+                            <td>Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.</td>
+                        </tr>
+                        <tr style="background-color: #800080">
+                            <td>Very Unhealthy</td>
+                            <td>201-300</td>
+                            <td>Health alert: everyone may experience more serious health effects.</td>
+                        </tr>
+                        <tr style="background-color: #A42C2E">
+                            <td>Hazardous</td>
+                            <td>301-500</td>
+                            <td>Health warnings of emergency conditions. The entire population is more likely to be affected.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <footer class="blockquote-footer">Source: United States Environmental Protection Agency, <cite title="Source Title"><a href="https://airnow.gov/index.cfm?action=aqibasics.aqi">AirNow.gov</a></cite></footer>
+                <div class='tableauPlaceholder' id='viz1530655583721' style='position: relative'>
+                    <noscript>
+                        <a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AQ&#47;AQIbyState-CountyOverTimeUS&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a>
+                    </noscript>
+                    <object class='tableauViz' style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='AQIbyState-CountyOverTimeUS&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AQ&#47;AQIbyState-CountyOverTimeUS&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' />
+                    </object>
+                </div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1530655583721');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.minWidth = '420px';
+                    vizElement.style.maxWidth = '1800px';
+                    vizElement.style.width = '100%';
+                    vizElement.style.minHeight = '587px';
+                    vizElement.style.maxHeight = '887px';
+                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+
+                </script>
             </div>
         </div>
     </div>
-    <!--Run data file scripts for charts-->
-    <script src="resources/js/us-asthma-data.js"></script>
-
-    <!--Run scripts to create charts-->
-    <script src="resources/js/script.js"></script>
 
     <!-- Import stuff that Bootstrap needs-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
