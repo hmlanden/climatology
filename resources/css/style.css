@@ -48,7 +48,8 @@ html {
     .p,
     #button,
     ol,
-    td {
+    td,
+    #normalList {
         font-size: 1.6rem;
     }
     .blockquote-footer {
@@ -109,6 +110,12 @@ html {
     text-align: center;
 }
 
+.display-4 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
 #teamPic {
     float: right;
     max-height: 175px;
@@ -125,7 +132,6 @@ html {
     border-style: solid;
     border-width: 5px;
     margin: 20px;
-
 }
 
 #headerImage {
@@ -141,4 +147,10 @@ html {
 
 h6 {
     font-weight: bold;
+}
+
+#carousel {
+    width: 600px;
+    height: 408px;
+    background-color: black;
 }
