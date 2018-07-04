@@ -116,6 +116,14 @@ html {
     font-variant: normal;
 }
 
+.blockquote {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: normal;
+    font-variant: normal;
+    padding: 10px;
+}
+
+
 #teamPic {
     float: right;
     max-height: 175px;
