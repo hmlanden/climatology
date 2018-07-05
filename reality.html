@@ -84,6 +84,7 @@
                     <li><strong>1948: Donora, Pennsylvania, US --</strong> Deadly smog kills approximately 20 people</li>
                     <li><strong>1952: London, Great Britian --</strong> Deadly smog later known as the "Great Smog" covers the city for four days, resulting in approximately 12,000 deaths that winter</li>
                 </ul>
+                <p>Starting with the Clean Air Act in 1970, the United States passed a series of laws that established government regulations for a variety of pollutants.</p>
                 <footer class="blockquote-footer">Source: Smithsonian Magazine <cite title="Source Title"><a href="https://www.smithsonianmag.com/science-nature/the-long-fight-against-air-pollution-21017286/">Smithsonian.com</a></cite></footer>
             </div>
             <div class="col">
@@ -121,26 +122,50 @@
                 <footer class="blockquote-footer">Photo Credit: National Archives Catalog (See Source Page for Full Photo Details)</footer>
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="padding-top: 10px">
             <div class="col">
                 <h4 class="display-4">Reviewing the Last 30 Years in the US</h4>
-                <div class='tableauPlaceholder' id='viz1530655583721' style='position: relative'>
+                <div class='tableauPlaceholder' id='viz1530753727135' style='position: relative'>
                     <noscript>
-                        <a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AQ&#47;AQIbyState-CountyOverTimeUS&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a>
+                        <a href='#'><img alt='Air Quality Over Time (1980-2018) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AQ&#47;AQIbyStateCountyOverTime-V2_1&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a>
                     </noscript>
                     <object class='tableauViz' style='display:none;'>
-                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='AQIbyState-CountyOverTimeUS&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AQ&#47;AQIbyState-CountyOverTimeUS&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' />
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                        <param name='embed_code_version' value='3' /> 
+                        <param name='site_root' value='' />
+                        <param name='name' value='AQIbyStateCountyOverTime-V2_1&#47;Dashboard1' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AQ&#47;AQIbyStateCountyOverTime-V2_1&#47;Dashboard1&#47;1.png' /> 
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='filter' value='publish=yes' />
                     </object>
                 </div>
                 <script type='text/javascript'>
-                    var divElement = document.getElementById('viz1530655583721');
+                    var divElement = document.getElementById('viz1530753727135');
                     var vizElement = divElement.getElementsByTagName('object')[0];
-                    vizElement.style.minWidth = '420px';
-                    vizElement.style.maxWidth = '1800px';
-                    vizElement.style.width = '100%';
-                    vizElement.style.minHeight = '587px';
-                    vizElement.style.maxHeight = '887px';
-                    vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px';
+                    if (divElement.offsetWidth > 800) {
+                        vizElement.style.minWidth = '420px';
+                        vizElement.style.maxWidth = '1800px';
+                        vizElement.style.width = '100%';
+                        vizElement.style.minHeight = '587px';
+                        vizElement.style.maxHeight = '887px';
+                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                    } else if (divElement.offsetWidth > 500) {
+                        vizElement.style.minWidth = '420px';
+                        vizElement.style.maxWidth = '1800px';
+                        vizElement.style.width = '100%';
+                        vizElement.style.minHeight = '587px';
+                        vizElement.style.maxHeight = '887px';
+                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                    } else {
+                        vizElement.style.width = '100%';
+                        vizElement.style.height = '794px';
+                    }
                     var scriptElement = document.createElement('script');
                     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                     vizElement.parentNode.insertBefore(scriptElement, vizElement);
