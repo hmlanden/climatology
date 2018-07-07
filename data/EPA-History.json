@@ -1,0 +1,167 @@
+[
+  {
+    "Year": 1970,
+    "Event": "Clean Air Act",
+    "Description": "Congress passes the first major Clean Air Act, requiring a 90 percent reduction in emissions from new automobiles by 1975. President Richard Nixon establishes EPA, and the new agency is given it broad responsibility for regulating motor vehicle pollution. New cars must meet EPA emission standards for  hydrocarbons (HC), carbon monoxide (CO),  nitrogen oxide (NOx). The law also directs EPA to set health-based \"National Ambient Air Quality Standards\" for six pollutants."
+  },
+  {
+    "Year": 1972,
+    "Event": "New Developments",
+    "Description": "Exhaust gas recirculation valves are developed as automakers strive to meet NOx standards."
+  },
+  {
+    "Year": 1973,
+    "Event": "New Transportation Controls & Regulations",
+    "Description": "EPA creates new transportation controls in some of the nation’s largest cities, including Los Angeles, Boston, Dallas, and others. Measures include exclusive bus lanes, bypass lanes for carpools and buses, parking garages and restrictions, and a mass transit incentive plan for California employers.\n\nEPA releases a study confirming that lead from automobile exhaust poses a direct threat to public health. Later that year, EPA issues final regulations to gradually reducing lead in gasoline."
+  },
+  {
+    "Year": 1975,
+    "Event": "Energy Policy Conservation Act & Clean Air Act Kicks In",
+    "Description": "Congress passes the Energy Policy Conservation Act, setting the first fuel economy goals. The Corporate Average Fuel Economy (CAFE) program establishes a phase-in of more stringent fuel economy standards beginning with 1975 model vehicles.\n\nThe \"first generation\" catalytic converters are built, significantly reducing vehicle emissions. Unleaded gasoline is also introduced because lead in gasoline may cause disintegration of catalytic converters. This results in dramatic reductions in ambient lead levels and alleviates many serious environmental and human health concerns associated with lead pollution."
+  },
+  {
+    "Year": 1977,
+    "Event": "Clean Air Act Amendment",
+    "Description": "Congress amends the Clean Air Act which set a schedule for continued reductions in emissions from automobiles."
+  },
+  {
+    "Year": 1981,
+    "Event": "Clean Air Act Amendment Kicks In",
+    "Description": "New cars meet the amended Clean Air Act standards for the first time. Sophisticated three-way catalysts with on-board computers and oxygen sensors appear in most new cars, helping to optimize the efficiency of the catalytic converter."
+  },
+  {
+    "Year": 1983,
+    "Event": "Inspection & Maintenance Programs Established",
+    "Description": "Inspection and Maintenance (I/M) programs are established in areas with air pollution problems, requiring passenger vehicles to undergo periodic testing for malfunctioning emission control systems."
+  },
+  {
+    "Year": 1985,
+    "Event": "New Emission Standards & Regulations",
+    "Description": "EPA sets stringent standards for emissions of NOx from heavy-duty engines and of PM from heavy-duty diesel-powered trucks and buses.\n\nEPA issues final regulations to cut the amount of lead in gasoline by 90 percent starting January 1, 1986. The new standard is 0.10 grams per gallon."
+  },
+  {
+    "Year": 1986,
+    "Event": "Reduction of Lead in Gasoline Begins",
+    "Description": "Starting January 1, 1986, EPA regulations kick in to start cutting the amount of lead in gasoline."
+  },
+  {
+    "Year": 1989,
+    "Event": "New Limits for Evaporative Emissions",
+    "Description": "For the first time, EPA sets fuel volatility limits aimed at reducing evaporative emissions."
+  },
+  {
+    "Year": 1990,
+    "Event": "Clean Air Act Amendment #2",
+    "Description": "EPA imposes limits on diesel fuel sulfur content to help buses and trucks meet the 1985 emission standards (which become effective in the early 1990s).\n\nCongress amends the Clean Air Act to require further reductions in HC, CO, NOx, and PM emissions. The amendments also introduce lower tailpipe standards; more stringent emission testing procedures; expanded I/M programs; new vehicle technologies and clean fuels programs; and transportation management provisions. The 1990 amendments also give EPA, for the first time, specific authority to regulate emissions from nonroad engines and vehicles.\n\nThe amendments include fuel provisions that require oxygenated gasoline, which reduces emissions of CO, to be sold in areas that do not meet air quality standards for the pollutant. In addition, the Amendments require reformulated gasoline, which reduces emissions of volatile organic compounds and hazardous air pollutants (or “air toxics”), to be sold in the nine worst areas that do not meet the minimum national air quality standards for ozone."
+  },
+  {
+    "Year": 1991,
+    "Event": "Lower Tailpipe Emission Standards Created",
+    "Description": "EPA establishes lower tailpipe standards for HC and NOx as required by the 1990 Clean Air Act to take effect beginning with 1994 models."
+  },
+  {
+    "Year": 1992,
+    "Event": "New Emission Limits & Oxygenated Gas is Introduced in Cities with High CO Levels",
+    "Description": "EPA establishes standards setting emission limits for CO at cold temperatures for the first time. Oxygenated gasoline is introduced in cities with high CO levels."
+  },
+  {
+    "Year": 1993,
+    "Event": "New Focus on Developing Tech to Triple Fuel Economy and Reduce Emissions",
+    "Description": "The Partnership for a New Generation of Vehicles is established to develop new automotive technology to help reduce air pollution by tripling the fuel economy of typical family sedans without sacrificing safety, performance, and affordable cost."
+  },
+  {
+    "Year": 1994,
+    "Event": "Lower Tailpipe Emission Standards Kick In & New Regulations to Reformulate Gas",
+    "Description": "EPA issues final regulations requiring that gasoline sold in certain areas be reformulated to reduce vehicle emissions of toxic and ozone-forming compounds."
+  },
+  {
+    "Year": 1996,
+    "Event": "Lead Banned from Gasoline Completely & New Emission Standards",
+    "Description": "EPA completes its 25-year mission to completely remove lead from gasoline. Lead is banned from gasoline as of January 1, 1996.\n\nEPA issues regulations that aim to produce cleaner technology and better engine performance in new marine spark-ignition (SI) engines. The emission standards, which apply to outboard engines and gasoline marine engines used in personal watercraft and jet boat applications, will reduce HC emissions by 75 percent by 2025."
+  },
+  {
+    "Year": 1997,
+    "Event": "Emission Standards for Trains",
+    "Description": "EPA finalizes emission standards for NOx, HC, CO, PM, and smoke for newly manufactured and re-manufactured diesel-powered locomotives and locomotive engines."
+  },
+  {
+    "Year": 1998,
+    "Event": "Emission Standards for Diesel Engines that Previously Had Mostly Escaped Regulation",
+    "Description": "EPA issues more stringent emissions standards for diesel engines used in nonroad construction, agricultural, and industrial equipment, as well as in certain marine applications. The standards are a major step forward in reducing ozone and PM emissions nationwide. Very few of these engines have ever faced any kind of emission standard requirement before the mid-1990s.\n\nThe Clinton Administration, the automotive industry, and the Northeastern states reach an agreement to put cleaner cars on the road before they can be mandated under the Clean Air Act. The first of these new cars, called National Low Emission Vehicles (NLEV), under the agreement are released in New England in the 1999 model year and made available nationwide in 2001."
+  },
+  {
+    "Year": 1999,
+    "Event": "Emission Standards for SUVs & Trucks (Previously Not Held to Same Standard as Cars)",
+    "Description": "EPA finalizes more protective tailpipe emissions standards, marking the first time that SUVs and other light-duty trucks are subject to the same national pollution standards as cars. At the same time, EPA finalizes lower standards for sulfur in gasoline to ensure the effectiveness of low emission-control technology and reduce harmful air pollution.\n\nEPA issues a final rule to reduce NOx and PM emissions from new large marine diesel engines. These engines are used in a variety of capacities, including fishing boats, tug and tow boats, dredgers, coastal and Great Lakes cargo vessels, and ocean-going vessels."
+  },
+  {
+    "Year": 2000,
+    "Event": "Regulation for Handheld Engines & National Control Program for Heavy-Duty Vehicles",
+    "Description": "EPA adopts final rule for nonroad small spark-ignition handheld engines (e.g., trimmers, brush cutters, and chainsaws) that rule reduces HC and NOx emissions by 70 percent beyond the previous standards.\n\nEPA develops a comprehensive national control program to regulate the heavy-duty vehicle and its fuel as a single system. These new standards apply to model year 2007 heavy-duty on-road engines and vehicles."
+  },
+  {
+    "Year": 2001,
+    "Event": "NLEV Cards Available Nationwide & New Gasoline Emission Performance Standards",
+    "Description": "EPA issues final regulations to control emissions of air toxics from mobile sources. In addition to identifying 21 mobile source air toxics, this rule sets new gasoline toxic emission performance standards."
+  },
+  {
+    "Year": 2004,
+    "Event": "New Programs & Standards",
+    "Description": "EPA announces the Clean School Bus USA Program which encourages policies and practices to eliminate unnecessary public school bus idling; upgrades buses that will remain in the fleet with better emission-control technologies and/or fueling them with cleaner fuels; and replaces the oldest buses in the fleet with new, less-polluting buses.\n\nEPA finalizes new emission standards for highway motorcycles to reduce the combined HC and NOx emissions in the exhaust by 50 percent as well as the harmful health effects of mobile source air toxics.\n\nEPA announces emission standards for new marine diesel engines that require installments on vessels flagged or registered in the United States. The first set of standards are equivalent to the internationally negotiated emission limits for NOx.\n\nEPA launches the SmartWay Transport Partnership Program which is a government/industry collaboration between EPA, freight shippers, carriers, logistics companies and other stakeholders, to voluntarily improve fuel efficiency and reduce greenhouse gases and air pollution from the transportation supply chain industry. SmartWay is comprised of partnerships, financial incentives, policy and technical solutions, and research and evaluation projects that find new ways to optimize the transportation networks in a company’s supply chain.\n\nEPA finalizes more stringent emission standards for nonroad diesel engines to reduce emissions from construction, agricultural, and industrial equipment by more than 90 percent. In addition, because the emission-control devices can be damaged by sulfur, EPA adopts a limit to decrease the allowable level of sulfur in nonroad diesel fuel by more than 99 percent. This integration of engine and fuel controls as a system gains the greatest air-quality benefits."
+  },
+  {
+    "Year": 2005,
+    "Event": "Updated Nox Standards for New Commercial Aircraft Engines",
+    "Description": "EPA amends the existing emission standards for NOx for new commercial aircraft engines. These standards are equivalent to the NOx emission standards of the United Nations International Civil Aviation Organization, and thereby bring United States aircraft standards into alignment with the international standards.\n\nEPA finalizes durability procedures applicable to light-duty vehicles and trucks, and some heavy-duty vehicles. Manufacturers use these procedures to predict what the emission levels of new vehicles will be at the end of their useful life period."
+  },
+  {
+    "Year": 2006,
+    "Event": "Updated Method for Calculating Fuel Economy Estimates",
+    "Description": "EPA adjusts the test methods used for calculating fuel economy estimates. These new methods bring the miles per gallon estimates closer to consumers' actual fuel economy, require fuel economy labels on certain heavier vehicles up to 10,000 pounds gross vehicle weight, such as larger SUVs and vans, and convey fuel economy information to the public more effectively by changing the design and content of the window sticker."
+  },
+  {
+    "Year": 2007,
+    "Event": "Heavy Duty Vehicle Rules Take Effect & New Regulations to Reduce Emissions of Benzene",
+    "Description": "EPA issues final regulations to reduce air toxics from mobile sources. The final standards significantly lower emissions of benzene and the other air toxics in three ways:\nBy lowering benzene content in gasoline;\nBy reducing exhaust emissions from passenger vehicles operated at cold temperatures (under 75 degrees); and\nBy reducing emissions that evaporate from, and permeate through, portable fuel containers.\nEPA establishes a national Renewable Fuel Standard Program to encourage the blending of renewable fuels into our nation's motor vehicle fuel. Establishment of an RFS Program is required by the Energy Policy Act of 2005 in order to move the United States toward greater energy independence and security."
+  },
+  {
+    "Year": 2008,
+    "Event": "More Stringent Standards for Diesel Emissions",
+    "Description": "EPA adopts more stringent standards to dramatically reduce emissions of diesel PM and NOx from locomotives and marine diesel engines. This three-part program:\nTightens emissions standards for existing locomotives and large marine diesel engines when they are remanufactured;\nSets near-term engine-out emissions standards for newly-built locomotives and marine diesel engines; and\nSets longer-term standards for newly-built locomotives and marine diesel engines that reflect the application of high-efficiency after treatment technology.\nAs part of this final rule, EPA also establishes new idle reduction requirements for newly-built and remanufactured locomotives and adopts provisions to encourage a new generation of clean switch locomotives, based on clean nonroad diesel engine standards.\n\nFor the first time, EPA announces the availability of almost $50 million in grant funding under the Diesel Emissions Reduction Program, which was created under the Energy Policy Act of 2005, to establish clean diesel projects aimed at reducing emissions from the nation's existing fleet of diesel engines.\n\nEPA finalizes regulations requiring the emission control systems of large highway diesel and gasoline trucks to be monitored for malfunctions via an onboard diagnostic system (OBD). In addition, EPA requires manufacturers to make available to the service and repair industry information necessary to perform repair and maintenance service on OBD systems and other emission-related engine components.\n\nEPA finalizes a three-part program to dramatically reduce NOx and PM emissions from marine diesel engines below 30 liters per cylinder displacement. These include marine propulsion engines used on vessels from recreational and small fishing boats to towboats, tugboats and Great Lake freighters, and marine auxiliary engines ranging from small generator sets to large generator sets on ocean-going vessels. The rule will cut PM emissions by as much as 90 percent and NOx emissions by as much as 80 percent from engines meeting these standards, compared to engines meeting the current standards."
+  },
+  {
+    "Year": 2009,
+    "Event": "California-Specific Clean Air Act Waiver & Greenhouse Gases Can Now Be Considered under the Clean Air Act",
+    "Description": "EPA adopts more stringent standards to reduce emissions from new marine compression-ignition engines at or above 30 liters per cylinder. These emission standards for large marine diesel engines are part of a coordinated strategy to address emissions from all ships that affect U.S. air quality.\n\nEPA grants a waiver of Clean Air Act preemption to California for its greenhouse gas emission standards for motor vehicles beginning with the 2009 model year because of California’s severe pollution problems.\n\nIn addition, after a thorough examination of the science and careful consideration of public comments, EPA finds that the current and projected concentrations of the six key well-mixed greenhouse gases in the atmosphere threaten the public health and welfare of current and future generations. As a result of this Endangerment Finding, greenhouse gases that lead to climate change can be regulated under the Clean Air Act."
+  },
+  {
+    "Year": 2010,
+    "Event": "First Greenhouse Gas Emission Standards under Clean Air Act",
+    "Description": "EPA and the Department of Transportation’s National Highway Traffic Safety Administration (NHTSA) finalize a joint rule to establish a national program consisting of new standards for model year 2012 through 2016 light-duty vehicles to reduce greenhouse gas emissions and improve fuel economy. These are EPA’s first national greenhouse gas (GHG) emissions standards under the Clean Air Act.\n\nEPA grants a partial waiver to allow E15 (15 percent ethanol) to be used in model year 2007 and newer light-duty vehicles, as long as health-effects testing requirements and other conditions can be satisfied. Refiners add ethanol to gasoline in order to meet the renewable fuel requirements of the 2007 Energy Independence and Security Act.\n\nEPA, working with international partners and the International Maritime Organization (IMO) designate specific portions of U.S., Canadian and French waters as an Emission Control Area (ECA). The rule is expected to achieve reductions in NOx, SOx, and PM from marine engine and fuel standards, along with significant human and environmental health benefits."
+  },
+  {
+    "Year": 2011,
+    "Event": "Regulations to Reduce GHG Emissions & Improve Fuel Efficiency of Heavy-Duty Trucks & Buses",
+    "Description": "EPA extends the waiver to allow E15 to be used in model year 2001 through 2006 light-duty vehicles, as long as health-effects testing requirements and other conditions can be satisfied.\n\nEPA and NHTSA unveil the most dramatic overhaul to fuel economy labels since they were introduced. Starting with the 2013 model year, the redesigned label provides the public with more comprehensive information on vehicles’ fuel economy, energy use, fuel costs, and environmental impacts.\n\nEPA and NHTSA announce the first-ever regulations to reduce greenhouse gas emissions and improve fuel efficiency of heavy-duty trucks and buses. This national program applies to combination tractors (semi-trucks), heavy-duty pickup trucks and vans, and vocational vehicles (including buses and refuse or utility trucks)."
+  },
+  {
+    "Year": 2012,
+    "Event": "Emission Reduction Program Extensions",
+    "Description": "EPA and NHTSA extend the national program to further reduce greenhouse gas emissions and improve fuel economy for passenger cars, light-duty trucks, and medium-duty passenger vehicles through model year 2017 through 2025.\n\nEPA and NHTSA extend the National Program of harmonized greenhouse gas and fuel economy standards for light duty vehicles to model year 2017 through 2025 passenger vehicles. Over the lifetime of the MY 2017-2025 standards, this program is projected to save approximately 4 billion barrels of oil and 2 billion metric tons of GHG emissions, with net benefits up to $451 billion."
+  },
+  {
+    "Year": 2014,
+    "Event": "New Vehicle Emission Standards & Lower Sulfur Content in Gas",
+    "Description": "The EPA finalized Tier 3 Standards for gasoline and the vehicles passenger cars, light-duty trucks, medium-duty passenger vehicles, and some heavy-duty vehicles. Starting in 2017, Tier 3 sets new vehicle emissions standards and lowers the sulfur content of gasoline, considering the vehicle and its fuel as an integrated system."
+  },
+  {
+    "Year": 2015,
+    "Event": "New Standards Proposal",
+    "Description": "The EPA and NHTSA propose model years 2018 to 2027 greenhouse gas emissions and fuel economy standards for medium and heavy duty vehicles."
+  },
+  {
+    "Year": 2016,
+    "Event": "Working on Setting GHG Standards for Aircraft",
+    "Description": "United Nations' International Civil Aviation Organization adopted international carbon dioxide emissions standards for aircraft. EPA is working currently working through the process of potentially setting GHG standards for greenhouse gas emissions from certain classes of aircraft."
+  }
+]
