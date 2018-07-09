@@ -163,6 +163,13 @@ h6 {
     background-color: black;
 }
 
-#row {
+.row {
     padding-top: 10px;
+}
+
+#hurricaneAndrew {
+    max-width: 900px;
+    max-height: inherit;
+    width: 100%;
+    height: auto;
 }
