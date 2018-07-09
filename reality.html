@@ -69,6 +69,30 @@
         </div>
         <div class="row">
             <div class="col">
+                <h4 class="display-4">Looking at Storms in the Atlantic</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <blockquote class="blockquote">
+                    <p class="mb-0">While hurricanes are a natural part of our climate system, recent research suggests that there has been an increase in intense hurricane activity in the North Atlantic since the 1970s. In the future, there may not necessarily be more hurricanes, but there will likely be more intense hurricanes that carry higher wind speeds and more precipitation as a result of global warming. The impacts of this trend are likely to be exacerbated by sea level rise and a growing population along coastlines.</p>
+                    <br>
+                    <p class="mb-0">Scientists are continuing to refine our understanding of how global warming affects hurricane activity. Cutting edge research is beginning to be able to attribute individual hurricanes to global warming. For example, new research estimates that as the Earth has warmed, the probability of a storm with precipitation levels like Hurricane Harvey was higher in Texas in 2017 than it was at the end of the twentieth century. Because of climate change, such a storm evolved from a once in every 100 years event to a once in every 16 years event over this time period.</p>
+                    <footer class="blockquote-footer">Hurricanes and Climate Change, <cite title="Source Title"><a href="https://www.ucsusa.org/global-warming/science-and-impacts/impacts/hurricanes-and-climate-change.html">Union of Concerned Scientists</a></cite></footer>
+                </blockquote>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>If we look at data from NOAA, two things seem quite clear: </p>
+                <ol>
+                    <li>The count of depressions, storms, and hurricanes being recorded has been steadily increasing. Even if we assume that data prior to the 1970s is potentially incomplete, we can still see a trend of increase from that point onwards.</li>
+                    <li>The number of storms that can be considered "major hurricanes" has also been steadily increasing. The 2000s in particular showed a startling number of major hurricanes, with its total count resting at exactly 100.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
                 <div class='tableauPlaceholder' id='viz1531019978431' style='position: relative'>
                     <noscript><a href='#'>
                         <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;RecordedStormsbyIntensity&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
@@ -96,12 +120,76 @@
                     vizElement.style.width = '100%';
                     vizElement.style.minHeight = '587px';
                     vizElement.style.maxHeight = '1027px';
-                    vizElement.style.height = (divElement.offsetWidth * 0.50) + 'px';
+                    vizElement.style.height = (divElement.offsetWidth * 0.55) + 'px';
                     var scriptElement = document.createElement('script');
                     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
                 </script>
+                <footer class="blockquote-footer">Source: National Oceanic and Atmospheric Administration, <cite title="Source Title"><a href="https://www.kaggle.com/noaa/hurricane-database">Kaggle</a></cite></footer>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5 class="display-5">Storm Categorization for the North Atlantic</h5>
+                <p>A tropical depression forms when a low pressure area is accompanied by thunderstorms that produce a circular wind flow with maximum sustained winds below 39 mph. An upgrade to a tropical storm occurs when cyclonic circulation becomes more organized and maximum sustained winds gust between 39 mph and 73 mph.</p>
+                <footer class="blockquote-footer">Source: NASA, <cite title="Source Title"><a href="https://pmm.nasa.gov/education/content/what-difference-between-tropical-storm-and-tropical-depression">Precipitation Education</a></cite></footer>
+                <br>
+                <p>Beyond that, storms are categorized by their sustained wind speed.</p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Storm Type</th>
+                            <th scope="col">Wind Speed (Knots)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background-color: #d6d4d4">
+                            <td>Tropical Depression</td>
+                            <td>Less than 29</td>
+                        </tr>
+                        <tr style="background-color: #78CBCF">
+                            <td>Tropical Storm</td>
+                            <td>30-55</td>
+                        </tr>
+                        <tr style="background-color: #7B7D4E">
+                            <td>Category 1 Hurricane</td>
+                            <td>56-72</td>
+                        </tr>
+                        <tr style="background-color: #800080">
+                            <td>Category 2 Hurricane</td>
+                            <td>73-83</td>
+                        </tr>
+                        <tr style="background-color: #D40040">
+                            <td>Category 3 Major Hurricane</td>
+                            <td>84-98</td>
+                        </tr>
+                        <tr style="background-color: #DF9D4F">
+                            <td>Category 4 Major Hurricane</td>
+                            <td>99-119</td>
+                        </tr>
+                        <tr style="background-color: #A42C2E">
+                            <td>Category 5 Major Hurricane</td>
+                            <td>Greater than 120</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Tropical_cyclone">Wikipedia</a></footer>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5 class="display-5">About the National Hurricane Center & the Dataset</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <blockquote class="blockquote">
+                    <p class="mb-0">The National Hurricane Center (NHC) conducts a post-storm analysis of each tropical cyclone in the Atlantic basin...and the North Pacific Ocean to determine the official assessment of the cyclone's history. This [dataset] makes use of all available observations, including those that may not have been available in real time.</p>
+                    <br>
+                    <p class="mb-0">In addition, NHC conducts ongoing reviews of any retrospective tropical cyclone analyses brought to its attention and on a regular basis updates the historical record to reflect changes introduced. Content The NHC publishes the tropical cyclone historical database in a format known as HURDAT, short for HURricane DATabase... [which] contain six-hourly information on the location, maximum winds, central pressure, and (starting in 2004) size of all known tropical cyclones and subtropical cyclones.</p>
+                    <footer class="blockquote-footer">NOAA, <cite title="Source Title"><a href="https://www.kaggle.com/noaa/hurricane-database/home">Kaggle</a></cite></footer>
+                </blockquote>
             </div>
         </div>
         <div class="row">
@@ -214,7 +302,7 @@
                         vizElement.style.width = '100%';
                         vizElement.style.minHeight = '587px';
                         vizElement.style.maxHeight = '887px';
-                        vizElement.style.height = (divElement.offsetWidth * 0.50) + 'px';
+                        vizElement.style.height = (divElement.offsetWidth * 0.55) + 'px';
                     } else {
                         vizElement.style.width = '100%';
                         vizElement.style.height = '794px';
