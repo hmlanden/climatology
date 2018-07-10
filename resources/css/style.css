@@ -350,9 +350,12 @@ h6 {
 }
 
 #hurricaneAndrew {
-    max-width: 1500px;
-    max-height: inherit;
-    width: 100%;
+    max-height: 400px;
+    width: auto;
     height: auto;
     align-self: center;
+}
+
+#pollutionQuote {
+    vertical-align: middle;
 }
